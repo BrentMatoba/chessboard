@@ -3,12 +3,21 @@
     height: 100px;
     background-color: black;
     border: 5px, white;
-    border-width: 5px;
     margin: auto;
 
 }
 
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+
+
 #chessboard{
     width: auto;
     height: auto;
+    display: flex;
+
 }
