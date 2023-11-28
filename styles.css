@@ -1,0 +1,14 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: 5px, white;
+    border-width: 5px;
+    margin: auto;
+
+}
+
+#chessboard{
+    width: auto;
+    height: auto;
+}
