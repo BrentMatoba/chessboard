@@ -1,3 +1,5 @@
+//I should the majority of this file into a seperate "chessboard" javascript file, this is going to get really annoying really fast.
+//import statements don't work until I understand how moduls work poggers
 let board = document.getElementById("chessboard")
 
 function createBoard(){
@@ -16,19 +18,19 @@ for(let i=0; i<8; i++){
 
     const row = document.createElement("div")
     for(let j = 0; j<8; j++){
-        let square = document.createElement("div")
-        square.textContent = letter + counter;
+        let squareDiv = document.createElement("div")
+        squareDiv.textContent = letter + counter;
         counter -=1;
 
         if(white==true){
-            square.classList.add("square", "white")
+            squareDiv.classList.add("square", "white")
             white=false;
         }
         else{
-            square.classList.add("square", "black")
+            squareDiv.classList.add("square", "black")
             white=true;
         }
-        row.appendChild(square)
+        row.appendChild(squareDiv)
     }
     board.append(row)
     letterCounter+=1;

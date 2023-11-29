@@ -1,5 +1,5 @@
-class square{
-    div;
+export default class square{
+    div; 
     occupied;
     resident;
     color;
