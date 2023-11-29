@@ -1,16 +1,16 @@
 export default class square{
-    div; 
-    occupied;
-    resident;
+    div; //pointer to corresponding div square
+    occupied; //boolean
+    resident; //refers to specific piece
     color;
-    position;
+    coordinate;
 
 
-    square(div, position, color){
+    constructor(div, position, color){
         this.div = div;
         this.occupied = false;
         this.resident = null;
-        this.position = position;
+        this.coordinate = coordinate;
         this.color = color;
     }
 

@@ -1,11 +1,43 @@
 .square{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     background-color: black;
-
     margin: auto;
 
+ 
 }
+#a7{
+    background-image: url("assets/chess-piece-images-v1.0/b-king.png");
+    background-size: 80% 80%;;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#a8{
+    background-image: url("assets/chess-piece-images-v1.0/b-bishop.png");
+    background-size: 80% 80%;;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#b5{
+    background-image: url("assets/chess-piece-images-v1.0/w-king.png");
+    background-size: 80% 80%;;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#b6{
+    background-image: url("assets/chess-piece-images-v1.0/w-queen.png");
+    background-size: 80% 80%;;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    /*
+    this code makes the background image of the target the specified piece.png.
+    I have to use ID's for each 
+    background-image: url("assets/chess-piece-images-v1.0/b-bishop.png");
+    background-size: 80% 80%;;
+    background-position: center;
+    background-repeat: no-repeat;
+    */
 
 .white{
     background-color: white;
@@ -16,8 +48,8 @@
 
 
 #chessboard{
-    width: 400px;
-    height: 400px;
+    width: 800px;
+    height: 800px;
     display: flex;
     border: 5px, black;
     border-style: solid;

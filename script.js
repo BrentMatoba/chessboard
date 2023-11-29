@@ -20,6 +20,7 @@ for(let i=0; i<8; i++){
     for(let j = 0; j<8; j++){
         let squareDiv = document.createElement("div")
         squareDiv.textContent = letter + counter;
+        squareDiv.id=letter+counter;
         counter -=1;
 
         if(white==true){
