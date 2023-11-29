@@ -3,7 +3,7 @@
 let board = document.getElementById("chessboard")
 
 function createBoard(){
-
+//creates board
 let white = true;
 const letterArray = ["a","b","c","d","e","f","g","h"]
 let letterCounter = 0;
@@ -39,6 +39,14 @@ for(let i=0; i<8; i++){
 
 function isEven(num){
     return num % 2 ===0;
+}
+
+function clearBoard(){
+    //clears board
+}
+function startingPosition(){
+    //spawns pieces in starting position
+    null;
 }
 
 createBoard()
