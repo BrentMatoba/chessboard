@@ -1,11 +1,13 @@
 class square{
+    div;
     occupied;
     resident;
     color;
     position;
 
 
-    square(position, color){
+    square(div, position, color){
+        this.div = div;
         this.occupied = false;
         this.resident = null;
         this.position = position;
